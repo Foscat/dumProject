@@ -1,0 +1,2 @@
+# dumProject
+Dummy project
