@@ -1,0 +1,81 @@
+:root{
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: fantasy;
+}
+
+nav {
+    padding-top: 1.8rem;
+    /*padding: 1.8rem 0 0;*/
+}
+
+nav ul {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    list-style: none;
+    margin: 15px;
+}
+
+nav li {
+    font-family: 'Sriracha', cursive;
+    border: 1px solid;
+    padding: 5px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background: url(https://epsilon.aeon.co/images/30ac8597-c37d-4bab-bf97-7856f23a55db/idea_sized-a_man_in_a_workshop_with_a_hand_over_his_eyes_in_anguish_whi_wellcome_v0015867.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(225, 220, 222 );
+    background-color: #3D3235;
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    height: 300px;
+}
+
+h1, h2, h3 {
+    font-family: 'Metal Mania', cursive;
+}
+
+#left-menu {
+    padding: 0px 15px;
+    margin: 1px 2rem;
+    flex-grow: 2;
+}
+
+#content-wrapper {
+    margin-right: 6rem;
+}
+
+p{
+    font-family: 'Sriracha', cursive;
+}
+
+footer {
+    height: 30px;
+    background: lightgrey;
+    border-top: 3px dashed forestgreen;
+    text-align: center;
+    padding-top: 10px;
+}
+
